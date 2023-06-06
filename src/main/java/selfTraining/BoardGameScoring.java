@@ -58,6 +58,7 @@ public class BoardGameScoring {
 
     public static void main(String[] args) {
         String input = "ABCBACC";
+
         int[] scores = BoardGameScoring.calculateScores(input);
         System.out.println("Scores: " + calculateScores(Arrays.toString(scores)));  //not working properly
     }
